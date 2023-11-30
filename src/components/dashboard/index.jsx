@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Link } from "react-router-dom";
+import Button from '@mui/material/Button';
 
 function Dashboard() {
   const [count, setCount] = useState(0)
@@ -11,7 +12,7 @@ function Dashboard() {
         </a>
       </div>
       <h1>Welcome to Dashboard</h1>
-      <Link to={`/`}>Go Back!</Link>
+      <Link to={`/`}><Button variant="contained">Go Back</Button></Link>
     </>
   )
 }
