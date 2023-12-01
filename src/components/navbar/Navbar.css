@@ -1,0 +1,19 @@
+.container-navbar{
+    padding: 3rem;
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.h2-navbar{
+    font-weight: 400;
+    color: black;
+}
+.span-navbar{
+    font-weight: bold;
+}
+.navbar-link{
+    color: black;
+    text-decoration: none;
+    margin-right: 1rem;
+}
