@@ -10,11 +10,14 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 35px;
-    margin: 5px; /* Ajusta el espacio alrededor de la cuadrícula */
+    margin: 5px;
   }
 
   .hometitle {
     text-align: left;
+    color: black;
+    margin-top: 10%;
+    margin-bottom: 5%;
   }
   
   .dashboard-item {
