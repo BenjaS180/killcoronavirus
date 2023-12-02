@@ -13,12 +13,10 @@
 .h2-navbar{
     font-weight: 400;
     color: black;
-    position:relative;
 }
 .span-navbar{
     font-weight: bold;
 }
-
 .navbar-link{
     color: black;
     text-decoration: none;
