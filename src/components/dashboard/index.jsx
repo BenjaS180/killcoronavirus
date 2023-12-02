@@ -32,7 +32,7 @@ function Dashboard() {
         <a href="https://vitejs.dev" target="_blank" rel="noopener noreferrer">
         </a>
       </div>
-      <h2 className="hometitle" >Inicio/Dashboard</h2>
+      <h3 className='hometitle' >Inicio / Dashboard</h3>
       <div className="dashboard">
         {dashboardItems.map((item, index) => (
           <DashboardItem key={index} title={item.title} imageUrl={item.imageUrl} description={item.description}/>

@@ -1,13 +1,20 @@
-.container-navbar{
-    padding: 3rem;
+.container-navbar {
+    position:sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: white;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
-}
+  }
+  
+  
 .h2-navbar{
     font-weight: 400;
     color: black;
+    align-items: center;
+    position:relative;
 }
 .span-navbar{
     font-weight: bold;

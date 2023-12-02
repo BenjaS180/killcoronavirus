@@ -7,7 +7,7 @@ function Navbar() {
     return(
     <>
     <div className="container-navbar">
-        <h2 className="h2-navbar" >Killcoronavirus</h2>
+        <h2 className="h2-navbar" >KILLCORONAVIRUS</h2>
         <div>
         <Link className="navbar-link" to={"/"} ><b>Inicio</b></Link>
         <Link className="navbar-link" to={"/"} >Administrar</Link>
