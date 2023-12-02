@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Button from '@mui/material/Button';
 import Navbar from '../navbar/index';
 import "./Dashboard.css"
+import MyButton from '../icon';
 
 
 function Dashboard() {
