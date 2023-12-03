@@ -1,47 +1,42 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 10px;
-  }
-  
-  .dashboard {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 35px;
-    margin: 5px;
-  }
+/* Tu CSS existente */
 
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto; /* Ajusta el tamaño vertical de las filas según sea necesario */
+  grid-gap: 35px;
+  margin: 5px;
+}
 
-  .hometitle {
-    text-align: left;
-    color: black;
-    margin-top: 10%;
-    margin-bottom: 5%;
-  }
-  
-  .dashboard-item {
-    background-color: #ffffff;
-    border: 1px solid #ddd;
-    padding: 50px; 
-    text-align: center;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
+.hometitle {
+  text-align: left;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
 
-    .dashboard-item img {
-        max-width: 70%;
-        height: auto;
-        }
+.dashboard-item {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 50px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
 
-    .item-title,
-    .description-item{
-        color: black; 
-        margin-bottom: 10px; 
-        }
+.dashboard-item img {
+  max-width: 50%;
+  height: auto;
+}
 
+.item-title,
+.description-item {
+  color: black;
+  margin-bottom: 10px;
+}
 
-    .button-container {
-        margin-top: 20px;
-        }
+.button-container {
+  margin-top: 20px;
+  text-align: center;
+}
