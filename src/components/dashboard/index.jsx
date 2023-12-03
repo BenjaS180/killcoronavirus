@@ -27,23 +27,26 @@ function Dashboard() {
 
   return (
     <>
-      <Navbar/>
-      <div>
+      <header>
+        <Navbar />
+      </header>
+      <main>
         <a href="https://vitejs.dev" target="_blank" rel="noopener noreferrer">
         </a>
-      </div>
-      <h3 className='hometitle' >Inicio / Dashboard</h3>
-      <div className="dashboard">
-        {dashboardItems.map((item, index) => (
-          <DashboardItem key={index} title={item.title} imageUrl={item.imageUrl} description={item.description}/>
-        ))}
-      </div>
-      <div className="button-container">
-        <Link to={`/`}>
-          <Button variant="contained">Mostrar mas</Button>
-        </Link>
-      </div>
+        <h2 className="hometitle">Inicio / Dashboard</h2>
+        <section className="dashboard">
+          {dashboardItems.map((item, index) => (
+            <DashboardItem key={index} title={item.title} imageUrl={item.imageUrl} description={item.description} />
+          ))}
+        </section>
+        <div className="button-container">
+          <Link to={`/`}>
+            <Button variant="contained">Mostrar más</Button>
+          </Link>
+        </div>
+      </main>
     </>
+
   );
 }
 
