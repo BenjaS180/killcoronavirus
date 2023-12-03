@@ -1,26 +1,35 @@
-.container-navbar {
-    position:sticky;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: white;
+.navbar-header {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-  }
-  
-  
-.h2-navbar{
-    font-weight: 400;
-    color: black;
-    position:relative;
-}
-.span-navbar{
-    font-weight: bold;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
 }
 
-.navbar-link{
-    color: black;
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-heading {
+    margin: 0;
+    color: #333; 
+    margin-right: 15px;
+}
+
+.navbar-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    margin-left: 15px;
+}
+
+.navbar-link {
     text-decoration: none;
-    margin-right: 1rem;
+    color: #333; 
+    font-weight: bold;
 }

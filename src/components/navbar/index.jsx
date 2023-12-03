@@ -7,16 +7,22 @@ import { Link } from "react-router-dom";
 function Navbar() {
     return(
     <>
-    <div className="container-navbar">
-        <h2 className="h2-navbar" >KILLCORONAVIRUS</h2>
-        <div>
-        <Link className="navbar-link" to={"/"} ><b>Inicio</b></Link>
-        <Link className="navbar-link" to={"/manage"} >Administrar</Link>
-        <Link className="navbar-link" to={"/patient"} >Pacientes</Link>
-        <Link className="navbar-link" to={"/records"} >Fichas</Link>
-        <Link className="navbar-link" to={"/"}>Salir</Link>
-        </div>
-    </div>
+        <header className="navbar-header">
+            <div className="navbar-left">
+                <h2 className="navbar-heading">KILLCORONAVIRUS</h2>
+            </div>
+            <div className="navbar-right">
+                <nav className="navbar-links">
+                    <ul>
+                        <li><Link to="/" className="navbar-link"><b>Inicio</b></Link></li>
+                        <li><Link to="/manage" className="navbar-link">Administrar</Link></li>
+                        <li><Link to="/patient" className="navbar-link">Pacientes</Link></li>
+                        <li><Link to="/records" className="navbar-link">Fichas</Link></li>
+                        <li><Link to="/" className="navbar-link">Salir</Link></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
     </>
     )
 }
