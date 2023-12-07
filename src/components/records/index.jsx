@@ -13,10 +13,13 @@ function Records(){
           <main>
           <h2 className="initial-h2"></h2>
             <section>
+              
             </section>
+        <div className="button-container" >
         <Link to={`/dashboard`}>
           <Button variant="contained">Volver</Button>
         </Link>
+        </div>
         </main>
         </>
     )
