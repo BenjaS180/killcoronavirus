@@ -28,7 +28,7 @@ function Dashboard() {
   return (
     <>
       <header>
-        <Navbar />
+        <Navbar/>
       </header>
       <main>
         <a href="https://vitejs.dev" target="_blank" rel="noopener noreferrer">

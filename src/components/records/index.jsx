@@ -1,15 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Button from '@mui/material/Button';
-
+import Navbar from '../navbar/index';
+import "./Records.css"
 
 function Records(){
     return(
         <>
-        <h1 className="h1welcome">Fichas</h1>
+        <header>
+          <Navbar/>
+        </header>
+          <main>
+          <h2 className="initial-h2"></h2>
+            <section>
+            </section>
         <Link to={`/dashboard`}>
           <Button variant="contained">Volver</Button>
         </Link>
+        </main>
         </>
     )
 }
