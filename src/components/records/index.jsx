@@ -7,9 +7,7 @@ import "./Records.css"
 function Records(){
     return(
         <>
-        <header>
           <Navbar/>
-        </header>
           <main>
           <h2 className="initial-h2"></h2>
             <section>

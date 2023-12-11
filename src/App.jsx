@@ -1,28 +1,35 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import { Link, Route, Routes } from "react-router-dom";
-import './App.css'
+import { Link } from "react-router-dom";
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
+import LandingIllustration from './assets/illustration.png'
 import Navbar from './components/navbar';
+import Footer from './components/footer'
 
-
+import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <Navbar/>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className="landing-container">
+        <div className="landing-container__main">
+          <Typography className="landing-container__title" variant="h1" gutterBottom>
+            Welcome to KillCoronavirus
+          </Typography>
+          <Typography variant="subtitle1" gutterBottom>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+          </Typography>
+          <Link to={`/dashboard`}>
+            <Button variant="contained">
+              Consult Today
+            </Button>
+          </Link>
+        </div>
+        <div className='landing-container__second'>
+          <img className="landing-container__image" src={LandingIllustration} alt="Landing Illustration" />
+        </div>
       </div>
-      <h1>Welcome to KillCoronavirus</h1>
-      <Link to={`/dashboard`}>Go to Dashboard</Link>
+      <Footer/>
     </>
   )
 }

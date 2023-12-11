@@ -9,6 +9,7 @@ function Navbar() {
     <>
         <header className="navbar-header">
             <div className="navbar-left">
+                {/* <img src={Logo} className="" alt="logo" /> */}
                 <h2 className="navbar-heading">KILLCORONAVIRUS</h2>
             </div>
             <div className="navbar-right">
