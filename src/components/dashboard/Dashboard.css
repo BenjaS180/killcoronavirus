@@ -1,9 +1,12 @@
-/* Tu CSS existente */
-
-.dashboard {
+.dashboard-container {
+  padding: 2rem;
+  background: url(../../assets/background.png) no-repeat;
+  background-position-y: center;
+}
+.dashboard-container_cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto; /* Ajusta el tamaño vertical de las filas según sea necesario */
+  grid-template-rows: auto;
   grid-gap: 35px;
   margin: 5px;
 }
@@ -23,11 +26,12 @@
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 0 auto;
-}
 
-.dashboard-item img {
-  max-width: 50%;
-  height: auto;
+  > svg {
+    width: 40px;
+    height: auto;
+    color: #5B9BF3;
+  }
 }
 
 .item-title,

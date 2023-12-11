@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #5B9BF3;
+  color: white;
+  height: auto;
+  padding: 2rem;
+}
+
+.footer__main {
+  width: 30%;
+}
+
+.footer__second {
+  display: flex;
+
+  > div {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+}
