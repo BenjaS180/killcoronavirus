@@ -1,6 +1,8 @@
 import React from "react";
-import "./Navbar.css"
 import { Link } from "react-router-dom";
+import Button from '@mui/material/Button';
+
+import "./Navbar.css"
 
 
 
@@ -16,10 +18,15 @@ function Navbar() {
                 <nav className="navbar-links">
                     <ul>
                         <li><Link to="/" className="navbar-link"><b>Inicio</b></Link></li>
-                        <li><Link to="/manage" className="navbar-link">Administrar</Link></li>
-                        <li><Link to="/patient" className="navbar-link">Pacientes</Link></li>
-                        <li><Link to="/records" className="navbar-link">Fichas</Link></li>
-                        <li><Link to="/" className="navbar-link">Salir</Link></li>
+                        <li><Link to="/nosotros" className="navbar-link">Nosotros</Link></li>
+                        <li><Link to="/contacto" className="navbar-link">Contacto</Link></li>
+                        <li>
+                            <Link to={`/login`}>
+                                <Button variant="contained">
+                                    Log In
+                                </Button>
+                            </Link>
+                        </li>
                     </ul>
                 </nav>
             </div>

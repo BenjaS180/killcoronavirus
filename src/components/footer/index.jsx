@@ -10,7 +10,7 @@ function Footer() {
             KillCoronavirus
           </Typography>
           <Typography variant="subtitle1" gutterBottom>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+          Gestionamos tu centro médico, desde citas hasta recursos, permitiéndote enfocarte en la atención médica.
           </Typography>
           <Typography variant="caption" display="block" gutterBottom>
             ©KillCoronavirusLTD 2023. All rights reserved
@@ -19,10 +19,10 @@ function Footer() {
         <div className='footer__second'>
           <div>
           <Typography variant="h6" gutterBottom>
-            Company
+            Organización
           </Typography>
           <Typography variant="subtitle1" gutterBottom>
-            About
+            Nosotros
           </Typography>
           <Typography variant="subtitle1" gutterBottom>
             Blog
@@ -30,7 +30,7 @@ function Footer() {
           </div>
           <div>
           <Typography variant="h6" gutterBottom>
-            Region
+            Ubicaciones
           </Typography>
           <Typography variant="subtitle1" gutterBottom>
             Santiago Centro, RM.
@@ -44,16 +44,16 @@ function Footer() {
           </div>
           <div>
           <Typography variant="h6" gutterBottom>
-            Help
+            Ayuda
           </Typography>
           <Typography variant="subtitle1" gutterBottom>
-            Help Center
+            Centro de Soporte
           </Typography>
           <Typography variant="subtitle1" gutterBottom>
-            Contact Support
+            Contacto de Soporte
           </Typography>
           <Typography variant="subtitle1" gutterBottom>
-            FAQ
+            Preguntas Frecuentes
           </Typography>
           </div>
         </div>

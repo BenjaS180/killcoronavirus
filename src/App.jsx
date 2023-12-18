@@ -14,14 +14,16 @@ function App() {
       <div className="landing-container">
         <div className="landing-container__main">
           <Typography className="landing-container__title" variant="h1" gutterBottom>
-            Welcome to KillCoronavirus
+            Bienvenido a KillCoronavirus
           </Typography>
           <Typography variant="subtitle1" gutterBottom>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+          Somos una plataforma médica diseñada para gestionar y resolver todas las necesidades de tu centro médico.
+          Simplificamos la gestión de tu centro médico, desde citas hasta recursos, permitiéndote enfocarte en la atención médica de calidad. 
+          ¡Con soluciones intuitivas, nos encargamos de la tecnología para impulsar tu centro!
           </Typography>
-          <Link to={`/dashboard`}>
+          <Link to={`/login`}>
             <Button variant="contained">
-              Consult Today
+              Empezar ahora
             </Button>
           </Link>
         </div>
