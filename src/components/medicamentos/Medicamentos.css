@@ -1,0 +1,36 @@
+.medicamentos-left {
+  width: 30%;
+  min-width: 30%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 12px;
+  padding: 25px;
+}
+
+.medicamentos-right {
+  width: 100%;
+}
+
+.medicamentos { 
+  height: auto !important;
+}
+
+.medicamentos_search { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  margin-top: 10px;
+
+  > svg {
+    position: absolute;
+    left: 20rem;
+    top: 12rem;
+    color: #9FC7FF;
+  }
+}
+
+.medicamentos__item {
+  cursor: pointer;
+
+}
